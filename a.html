@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function myfunction(times,message1,message2,message3) {
+            alert(message1);
+            alert(message2);
+            for (var i = 0;i < times;i++) {
+                alert((times - i)+"번 남음")
+            }
+            alert(message3);
+        }
+        window.onload = function () {
+            myfunction(400, "안녕하세요", "400번동안 알림창을 클릭해야합니다", "0번 남음");
+        }
+    </script>
+</head>
+<body>
+</body>
+</html>
